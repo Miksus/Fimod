@@ -3,7 +3,7 @@ import pytest
 import sys
 sys.path.append('..')
 
-from finmod.functions.derivatives import option
+from fimod.formulas.derivatives import option
 
 """
 Example Exercise:
