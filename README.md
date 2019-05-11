@@ -1,10 +1,10 @@
 # Fimod
 
-> Educational and analytical tool to model how financial instruments work
+> Python toolbox for finance
 
-> Finance, Educational
+> Finance, Data, Analytics
 
-![Orderbook](docs/img/example_strangle_strategy.png)
+![Strangle](docs/img/example_strangle_strategy.png)
 
 ---
 
@@ -17,15 +17,19 @@
 ---
 
 ## Features
-- Calculations for option price
-- Simple interface for plotting payoffs
+- **Financial mathematics** in Python:
+    > Capital Asset Pricing Model, Black & Scholes formula and more
+- **Financial instruments** modelled in Python:
+    > Straight forward API for stocks and derivatives
+- **Data processing tools** for finance:
+    > Rate converters, return converters, portfolio functions and more
 
 
 ## Usage
-> Please see [demo](demo.ipynb)
+> Please see [Option Price Demo](docs\Interactive_option_price.ipynb) or [Option Strategies Demo](docs\Option_strategies.ipynb)
 
 ## Test
-Pytest was chosen as testing suites. Tests are found in tests directory. 
+Pytest is chosen as testing framework. Tests are found in tests directory. 
 
 ---
 
