@@ -26,7 +26,7 @@
 
 
 ## Usage
-> Please see [Option Price Demo](docs\Interactive_option_price.ipynb) or [Option Strategies Demo](docs\Option_strategies.ipynb)
+> Please see [Option Price Demo](docs/Interactive_option_price.ipynb) or [Option Strategies Demo](docs/Option_strategies.ipynb)
 
 ## Test
 Pytest is chosen as testing framework. Tests are found in tests directory. 
