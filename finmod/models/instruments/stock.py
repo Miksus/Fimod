@@ -2,22 +2,20 @@ from .instrument import Instrument
 
 class Stock(Instrument):
     
-    def __init__(self, price, ticker=None, **kwargs):
-        
-        self.trade_price = price
-        
-        self.ticker = ticker
-        
+    price = None
+    volatility = None
+
+    def __init__(self, **kwargs):
         super().__init__(**kwargs)
-    
-    def payoff(self, spot_price):
+
+    def payoff(self):
+        spot_price = self.price
         if self.position == "long":
             return spot_price - self.buying_price
         elif self.position == "short":
             return self.selling_price - spot_price
         else:
             raise TypeError
-    
     
     def calc_alpha(self, riskfree_rate, ):
         pass
